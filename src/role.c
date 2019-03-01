@@ -35,7 +35,9 @@ const struct Role roles[] = {
         { "Speleologist", 0 },
         { "Collector", 0 },
         { "Curator", 0 } },
-      "Quetzalcoatl", "Camaxtli", "Huhetotl", /* Central American */
+      "Quetzalcoatl",
+      "Camaxtli",
+      "Huhetotl", /* Central American */
       "Arc",
       "the College of Archeology",
       "the Tomb of the Toltec Kings",
@@ -77,7 +79,9 @@ const struct Role roles[] = {
         { "Slayer", 0 },
         { "Chieftain", "Chieftainess" },
         { "Conqueror", "Conqueress" } },
-      "Mitra", "Crom", "Set", /* Hyborian */
+      "Mitra",
+      "Crom",
+      "Set", /* Hyborian */
       "Bar",
       "the Camp of the Duali Tribe",
       "the Duali Oasis",
@@ -119,7 +123,9 @@ const struct Role roles[] = {
         { "Nomad", 0 },
         { "Rover", 0 },
         { "Pioneer", 0 } },
-      "Anu", "_Ishtar", "Anshar", /* Babylonian */
+      "Anu",
+      "_Ishtar",
+      "Anshar", /* Babylonian */
       "Cav",
       "the Caves of the Ancestors",
       "the Dragon's Lair",
@@ -161,7 +167,9 @@ const struct Role roles[] = {
         { "Magister", "Magistra" },
         { "Physician", 0 },
         { "Chirurgeon", 0 } },
-      "_Athena", "Hermes", "Poseidon", /* Greek */
+      "_Athena",
+      "Hermes",
+      "Poseidon", /* Greek */
       "Hea",
       "the Temple of Epidaurus",
       "the Temple of Coeus",
@@ -202,7 +210,9 @@ const struct Role roles[] = {
         { "Chevalier", "Chevaliere" },
         { "Seignieur", "Dame" },
         { "Paladin", 0 } },
-      "Lugh", "_Brigit", "Manannan Mac Lir", /* Celtic */
+      "Lugh",
+      "_Brigit",
+      "Manannan Mac Lir", /* Celtic */
       "Kni",
       "Camelot Castle",
       "the Isle of Glass",
@@ -243,7 +253,9 @@ const struct Role roles[] = {
         { "Student of Winds", 0 },
         { "Student of Fire", 0 },
         { "Master", 0 } },
-      "Shan Lai Ching", "Chih Sung-tzu", "Huan Ti", /* Chinese */
+      "Shan Lai Ching",
+      "Chih Sung-tzu",
+      "Huan Ti", /* Chinese */
       "Mon",
       "the Monastery of Chan-Sune",
       "the Monastery of the Earth-Lord",
@@ -285,7 +297,9 @@ const struct Role roles[] = {
         { "Lama", 0 },
         { "Patriarch", "Matriarch" },
         { "High Priest", "High Priestess" } },
-      0, 0, 0, /* deities from a randomly chosen other role will be used */
+      0,
+      0,
+      0, /* deities from a randomly chosen other role will be used */
       "Pri",
       "the Great Temple",
       "the Temple of Nalzok",
@@ -329,7 +343,9 @@ const struct Role roles[] = {
         { "Filcher", 0 },
         { "Magsman", "Magswoman" },
         { "Thief", 0 } },
-      "Issek", "Mog", "Kos", /* Nehwon */
+      "Issek",
+      "Mog",
+      "Kos", /* Nehwon */
       "Rog",
       "the Thieves' Guild Hall",
       "the Assassins' Guild Hall",
@@ -375,16 +391,18 @@ const struct Role roles[] = {
         {"Elentar",     "Elentari"},   /* Star-king, -queen (Q.) */
         "Solonor Thelandira", "Aerdrie Faenya", "Lolth", /* Elven */
 #endif
-        { "Tenderfoot", 0 },
-        { "Lookout", 0 },
-        { "Trailblazer", 0 },
-        { "Reconnoiterer", "Reconnoiteress" },
-        { "Scout", 0 },
-        { "Arbalester", 0 }, /* One skilled at crossbows */
-        { "Archer", 0 },
-        { "Sharpshooter", 0 },
-        { "Marksman", "Markswoman" } },
-      "Mercury", "_Venus", "Mars", /* Roman/planets */
+          { "Tenderfoot", 0 },
+          { "Lookout", 0 },
+          { "Trailblazer", 0 },
+          { "Reconnoiterer", "Reconnoiteress" },
+          { "Scout", 0 },
+          { "Arbalester", 0 }, /* One skilled at crossbows */
+          { "Archer", 0 },
+          { "Sharpshooter", 0 },
+          { "Marksman", "Markswoman" } },
+      "Mercury",
+      "_Venus",
+      "Mars", /* Roman/planets */
       "Ran",
       "Orion's camp",
       "the cave of the wumpus",
@@ -426,7 +444,9 @@ const struct Role roles[] = {
         { "Daimyo", 0 },         /* a samurai lord */
         { "Kuge", 0 },           /* Noble of the Court */
         { "Shogun", 0 } },       /* supreme commander, warlord */
-      "_Amaterasu Omikami", "Raijin", "Susanowo", /* Japanese */
+      "_Amaterasu Omikami",
+      "Raijin",
+      "Susanowo", /* Japanese */
       "Sam",
       "the Castle of the Taro Clan",
       "the Shogun's Castle",
@@ -467,7 +487,9 @@ const struct Role roles[] = {
         { "Voyager", 0 },
         { "Explorer", 0 },
         { "Adventurer", 0 } },
-      "Blind Io", "_The Lady", "Offler", /* Discworld */
+      "Blind Io",
+      "_The Lady",
+      "Offler", /* Discworld */
       "Tou",
       "Ankh-Morpork",
       "the Thieves' Guild Hall",
@@ -508,7 +530,9 @@ const struct Role roles[] = {
         { "Hero", "Heroine" },
         { "Champion", 0 },
         { "Lord", "Lady" } },
-      "Tyr", "Odin", "Loki", /* Norse */
+      "Tyr",
+      "Odin",
+      "Loki", /* Norse */
       "Val",
       "the Shrine of Destiny",
       "the cave of Surtur",
@@ -549,7 +573,9 @@ const struct Role roles[] = {
         { "Necromancer", 0 },
         { "Wizard", 0 },
         { "Mage", 0 } },
-      "Ptah", "Thoth", "Anhur", /* Egyptian */
+      "Ptah",
+      "Thoth",
+      "Anhur", /* Egyptian */
       "Wiz",
       "the Lonely Tower",
       "the Tower of Darkness",
@@ -580,7 +606,51 @@ const struct Role roles[] = {
       10,
       A_INT,
       SPE_MAGIC_MISSILE,
+      -4 }, 
+    { { "Gobshiter", 0 },
+      { { "Rambler", 0 },
+        { "Sightseer", 0 },
+        { "Excursionist", 0 },
+        { "Peregrinator", "Peregrinatrix" },
+        { "Traveler", 0 },
+        { "Journeyer", 0 },
+        { "Voyager", 0 },
+        { "Explorer", 0 },
+        { "Adventurer", 0 } },
+      "Blind Io",
+      "_The Lady",
+      "Offler", /* Discworld */
+      "Tou",
+      "Ankh-Morpork",
+      "the Thieves' Guild Hall",
+      PM_TOURIST,
+      NON_PM,
+      NON_PM,
+      PM_TWOFLOWER,
+      PM_GUIDE,
+      PM_MASTER_OF_THIEVES,
+      PM_GIANT_SPIDER,
+      PM_FOREST_CENTAUR,
+      S_SPIDER,
+      S_CENTAUR,
+      ART_YENDORIAN_EXPRESS_CARD,
+      MH_HUMAN | ROLE_MALE | ROLE_FEMALE | ROLE_NEUTRAL,
+      /* Str Int Wis Dex Con Cha */
+      { 7, 10, 6, 7, 7, 10 },
+      { 15, 10, 10, 15, 30, 20 },
+      /* Init   Lower  Higher */
+      { 8, 0, 0, 8, 0, 0 }, /* Hit points */
+      { 1, 0, 0, 1, 0, 1 },
+      14, /* Energy */
+      0,
+      5,
+      1,
+      2,
+      10,
+      A_INT,
+      SPE_CHARM_MONSTER,
       -4 },
+
     /* Array terminator */
     { { 0, 0 } }
 };
@@ -588,30 +658,49 @@ const struct Role roles[] = {
 /* The player's role, created at runtime from initial
  * choices.  This may be munged in role_init().
  */
-struct Role urole = {
-    { "Undefined", 0 },
-    { { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 },
-      { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 } },
-    "L", "N", "C",
-    "Xxx", "home", "locate",
-    NON_PM, NON_PM, NON_PM, NON_PM, NON_PM, NON_PM, NON_PM, NON_PM,
-    0, 0, 0, 0,
-    /* Str Int Wis Dex Con Cha */
-    { 7, 7, 7, 7, 7, 7 },
-    { 20, 15, 15, 20, 20, 10 },
-    /* Init   Lower  Higher */
-    { 10, 0, 0, 8, 1, 0 }, /* Hit points */
-    { 2, 0, 0, 2, 0, 3 },
-    14, /* Energy */
-     0,
-    10,
-     0,
-     0,
-     4,
-    A_INT,
-     0,
-    -3
-};
+struct Role urole = { { "Undefined", 0 },
+                      { { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 },
+                        { 0, 0 } },
+                      "L",
+                      "N",
+                      "C",
+                      "Xxx",
+                      "home",
+                      "locate",
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      NON_PM,
+                      0,
+                      0,
+                      0,
+                      0,
+                      /* Str Int Wis Dex Con Cha */
+                      { 7, 7, 7, 7, 7, 7 },
+                      { 20, 15, 15, 20, 20, 10 },
+                      /* Init   Lower  Higher */
+                      { 10, 0, 0, 8, 1, 0 }, /* Hit points */
+                      { 2, 0, 0, 2, 0, 3 },
+                      14, /* Energy */
+                      0,
+                      10,
+                      0,
+                      0,
+                      4,
+                      A_INT,
+                      0,
+                      -3 };
 
 /* Table of all races */
 const struct Race races[] = {
@@ -772,23 +861,19 @@ static struct {
 } rfilter;
 
 STATIC_DCL int NDECL(randrole_filtered);
-STATIC_DCL char *FDECL(promptsep, (char *, int));
-STATIC_DCL int FDECL(role_gendercount, (int));
-STATIC_DCL int FDECL(race_alignmentcount, (int));
+STATIC_DCL char *FDECL(promptsep, (char *, int) );
+STATIC_DCL int FDECL(role_gendercount, (int) );
+STATIC_DCL int FDECL(race_alignmentcount, (int) );
 
 /* used by str2XXX() */
 static char NEARDATA randomstr[] = "random";
 
-boolean
-validrole(rolenum)
-int rolenum;
+boolean validrole(rolenum) int rolenum;
 {
-    return (boolean) (rolenum >= 0 && rolenum < SIZE(roles) - 1);
+    return (boolean)(rolenum >= 0 && rolenum < SIZE(roles) - 1);
 }
 
-int
-randrole(for_display)
-boolean for_display;
+int randrole(for_display) boolean for_display;
 {
     int res = SIZE(roles) - 1;
 
@@ -815,9 +900,7 @@ randrole_filtered()
     return n ? set[rn2(n)] : randrole(FALSE);
 }
 
-int
-str2role(str)
-const char *str;
+int str2role(str) const char *str;
 {
     int i, len;
 
@@ -847,19 +930,15 @@ const char *str;
     return ROLE_NONE;
 }
 
-boolean
-validrace(rolenum, racenum)
-int rolenum, racenum;
+boolean validrace(rolenum, racenum) int rolenum, racenum;
 {
     /* Assumes validrole */
-    return (boolean) (racenum >= 0 && racenum < SIZE(races) - 1
-                      && (roles[rolenum].allow & races[racenum].allow
-                          & ROLE_RACEMASK));
+    return (boolean)(
+        racenum >= 0 && racenum < SIZE(races) - 1
+        && (roles[rolenum].allow & races[racenum].allow & ROLE_RACEMASK));
 }
 
-int
-randrace(rolenum)
-int rolenum;
+int randrace(rolenum) int rolenum;
 {
     int i, n = 0;
 
@@ -884,9 +963,7 @@ int rolenum;
     return rn2(SIZE(races) - 1);
 }
 
-int
-str2race(str)
-const char *str;
+int str2race(str) const char *str;
 {
     int i, len;
 
@@ -913,19 +990,15 @@ const char *str;
     return ROLE_NONE;
 }
 
-boolean
-validgend(rolenum, racenum, gendnum)
-int rolenum, racenum, gendnum;
+boolean validgend(rolenum, racenum, gendnum) int rolenum, racenum, gendnum;
 {
     /* Assumes validrole and validrace */
-    return (boolean) (gendnum >= 0 && gendnum < ROLE_GENDERS
-                      && (roles[rolenum].allow & races[racenum].allow
-                          & genders[gendnum].allow & ROLE_GENDMASK));
+    return (boolean)(gendnum >= 0 && gendnum < ROLE_GENDERS
+                     && (roles[rolenum].allow & races[racenum].allow
+                         & genders[gendnum].allow & ROLE_GENDMASK));
 }
 
-int
-randgend(rolenum, racenum)
-int rolenum, racenum;
+int randgend(rolenum, racenum) int rolenum, racenum;
 {
     int i, n = 0;
 
@@ -951,9 +1024,7 @@ int rolenum, racenum;
     return rn2(ROLE_GENDERS);
 }
 
-int
-str2gend(str)
-const char *str;
+int str2gend(str) const char *str;
 {
     int i, len;
 
@@ -979,19 +1050,15 @@ const char *str;
     return ROLE_NONE;
 }
 
-boolean
-validalign(rolenum, racenum, alignnum)
-int rolenum, racenum, alignnum;
+boolean validalign(rolenum, racenum, alignnum) int rolenum, racenum, alignnum;
 {
     /* Assumes validrole and validrace */
-    return (boolean) (alignnum >= 0 && alignnum < ROLE_ALIGNS
-                      && (roles[rolenum].allow & races[racenum].allow
-                          & aligns[alignnum].allow & ROLE_ALIGNMASK));
+    return (boolean)(alignnum >= 0 && alignnum < ROLE_ALIGNS
+                     && (roles[rolenum].allow & races[racenum].allow
+                         & aligns[alignnum].allow & ROLE_ALIGNMASK));
 }
 
-int
-randalign(rolenum, racenum)
-int rolenum, racenum;
+int randalign(rolenum, racenum) int rolenum, racenum;
 {
     int i, n = 0;
 
@@ -1017,9 +1084,7 @@ int rolenum, racenum;
     return rn2(ROLE_ALIGNS);
 }
 
-int
-str2align(str)
-const char *str;
+int str2align(str) const char *str;
 {
     int i, len;
 
@@ -1046,9 +1111,8 @@ const char *str;
 }
 
 /* is rolenum compatible with any racenum/gendnum/alignnum constraints? */
-boolean
-ok_role(rolenum, racenum, gendnum, alignnum)
-int rolenum, racenum, gendnum, alignnum;
+boolean ok_role(rolenum, racenum, gendnum, alignnum) int rolenum, racenum,
+    gendnum, alignnum;
 {
     int i;
     short allow;
@@ -1091,21 +1155,20 @@ int rolenum, racenum, gendnum, alignnum;
 /* pick a random role subject to any racenum/gendnum/alignnum constraints */
 /* If pickhow == PICK_RIGID a role is returned only if there is  */
 /* a single possibility */
-int
-pick_role(racenum, gendnum, alignnum, pickhow)
-int racenum, gendnum, alignnum, pickhow;
+int pick_role(racenum, gendnum, alignnum, pickhow) int racenum, gendnum,
+    alignnum, pickhow;
 {
     int i;
     int roles_ok = 0, set[SIZE(roles)];
 
     for (i = 0; i < SIZE(roles) - 1; i++) {
         if (ok_role(i, racenum, gendnum, alignnum)
-            && ok_race(i, (racenum >= 0) ? racenum : ROLE_RANDOM,
-                       gendnum, alignnum)
-            && ok_gend(i, racenum,
-                       (gendnum >= 0) ? gendnum : ROLE_RANDOM, alignnum)
-            && ok_race(i, racenum,
-                       gendnum, (alignnum >= 0) ? alignnum : ROLE_RANDOM))
+            && ok_race(i, (racenum >= 0) ? racenum : ROLE_RANDOM, gendnum,
+                       alignnum)
+            && ok_gend(i, racenum, (gendnum >= 0) ? gendnum : ROLE_RANDOM,
+                       alignnum)
+            && ok_race(i, racenum, gendnum,
+                       (alignnum >= 0) ? alignnum : ROLE_RANDOM))
             set[roles_ok++] = i;
     }
     if (roles_ok == 0 || (roles_ok > 1 && pickhow == PICK_RIGID))
@@ -1114,9 +1177,8 @@ int racenum, gendnum, alignnum, pickhow;
 }
 
 /* is racenum compatible with any rolenum/gendnum/alignnum constraints? */
-boolean
-ok_race(rolenum, racenum, gendnum, alignnum)
-int rolenum, racenum, gendnum, alignnum;
+boolean ok_race(rolenum, racenum, gendnum, alignnum) int rolenum, racenum,
+    gendnum, alignnum;
 {
     int i;
     short allow;
@@ -1159,9 +1221,8 @@ int rolenum, racenum, gendnum, alignnum;
 /* Pick a random race subject to any rolenum/gendnum/alignnum constraints.
    If pickhow == PICK_RIGID a race is returned only if there is
    a single possibility. */
-int
-pick_race(rolenum, gendnum, alignnum, pickhow)
-int rolenum, gendnum, alignnum, pickhow;
+int pick_race(rolenum, gendnum, alignnum, pickhow) int rolenum, gendnum,
+    alignnum, pickhow;
 {
     int i;
     int races_ok = 0;
@@ -1186,9 +1247,8 @@ int rolenum, gendnum, alignnum, pickhow;
 
 /* is gendnum compatible with any rolenum/racenum/alignnum constraints? */
 /* gender and alignment are not comparable (and also not constrainable) */
-boolean
-ok_gend(rolenum, racenum, gendnum, alignnum)
-int rolenum, racenum, gendnum;
+boolean ok_gend(rolenum, racenum, gendnum, alignnum) int rolenum, racenum,
+    gendnum;
 int alignnum UNUSED;
 {
     int i;
@@ -1227,9 +1287,8 @@ int alignnum UNUSED;
 /* gender and alignment are not comparable (and also not constrainable) */
 /* If pickhow == PICK_RIGID a gender is returned only if there is  */
 /* a single possibility */
-int
-pick_gend(rolenum, racenum, alignnum, pickhow)
-int rolenum, racenum, alignnum, pickhow;
+int pick_gend(rolenum, racenum, alignnum, pickhow) int rolenum, racenum,
+    alignnum, pickhow;
 {
     int i;
     int gends_ok = 0;
@@ -1254,9 +1313,7 @@ int rolenum, racenum, alignnum, pickhow;
 
 /* is alignnum compatible with any rolenum/racenum/gendnum constraints? */
 /* alignment and gender are not comparable (and also not constrainable) */
-boolean
-ok_align(rolenum, racenum, gendnum, alignnum)
-int rolenum, racenum;
+boolean ok_align(rolenum, racenum, gendnum, alignnum) int rolenum, racenum;
 int gendnum UNUSED;
 int alignnum;
 {
@@ -1296,9 +1353,8 @@ int alignnum;
    alignment and gender are not comparable (and also not constrainable).
    If pickhow == PICK_RIGID an alignment is returned only if there is
    a single possibility. */
-int
-pick_align(rolenum, racenum, gendnum, pickhow)
-int rolenum, racenum, gendnum, pickhow;
+int pick_align(rolenum, racenum, gendnum, pickhow) int rolenum, racenum,
+    gendnum, pickhow;
 {
     int i;
     int aligns_ok = 0;
@@ -1345,16 +1401,19 @@ rigid_role_checks()
             flags.initrole = randrole_filtered();
     }
     if (flags.initrace == ROLE_RANDOM
-        && (tmp = pick_race(flags.initrole, flags.initgend,
-                            flags.initalign, PICK_RANDOM)) != ROLE_NONE)
+        && (tmp = pick_race(flags.initrole, flags.initgend, flags.initalign,
+                            PICK_RANDOM))
+               != ROLE_NONE)
         flags.initrace = tmp;
     if (flags.initalign == ROLE_RANDOM
-        && (tmp = pick_align(flags.initrole, flags.initrace,
-                             flags.initgend, PICK_RANDOM)) != ROLE_NONE)
+        && (tmp = pick_align(flags.initrole, flags.initrace, flags.initgend,
+                             PICK_RANDOM))
+               != ROLE_NONE)
         flags.initalign = tmp;
     if (flags.initgend == ROLE_RANDOM
-        && (tmp = pick_gend(flags.initrole, flags.initrace,
-                            flags.initalign, PICK_RANDOM)) != ROLE_NONE)
+        && (tmp = pick_gend(flags.initrole, flags.initrace, flags.initalign,
+                            PICK_RANDOM))
+               != ROLE_NONE)
         flags.initgend = tmp;
 
     if (flags.initrole != ROLE_NONE) {
@@ -1370,9 +1429,7 @@ rigid_role_checks()
     }
 }
 
-boolean
-setrolefilter(bufp)
-const char *bufp;
+boolean setrolefilter(bufp) const char *bufp;
 {
     int i;
     boolean reslt = TRUE;
@@ -1421,9 +1478,7 @@ clearrolefilter()
 
 STATIC_VAR char pa[NUM_BP], post_attribs;
 
-STATIC_OVL char *
-promptsep(buf, num_post_attribs)
-char *buf;
+STATIC_OVL char *promptsep(buf, num_post_attribs) char *buf;
 int num_post_attribs;
 {
     const char *conjuct = "and ";
@@ -1438,9 +1493,7 @@ int num_post_attribs;
     return buf;
 }
 
-STATIC_OVL int
-role_gendercount(rolenum)
-int rolenum;
+STATIC_OVL int role_gendercount(rolenum) int rolenum;
 {
     int gendcount = 0;
 
@@ -1455,9 +1508,7 @@ int rolenum;
     return gendcount;
 }
 
-STATIC_OVL int
-race_alignmentcount(racenum)
-int racenum;
+STATIC_OVL int race_alignmentcount(racenum) int racenum;
 {
     int aligncount = 0;
 
@@ -1472,10 +1523,8 @@ int racenum;
     return aligncount;
 }
 
-char *
-root_plselection_prompt(suppliedbuf, buflen, rolenum, racenum, gendnum,
-                        alignnum)
-char *suppliedbuf;
+char *root_plselection_prompt(suppliedbuf, buflen, rolenum, racenum, gendnum,
+                              alignnum) char *suppliedbuf;
 int buflen, rolenum, racenum, gendnum, alignnum;
 {
     int k, gendercount = 0, aligncount = 0;
@@ -1623,9 +1672,8 @@ int buflen, rolenum, racenum, gendnum, alignnum;
         return err_ret;
 }
 
-char *
-build_plselection_prompt(buf, buflen, rolenum, racenum, gendnum, alignnum)
-char *buf;
+char *build_plselection_prompt(buf, buflen, rolenum, racenum, gendnum,
+                               alignnum) char *buf;
 int buflen, rolenum, racenum, gendnum, alignnum;
 {
     const char *defprompt = "Shall I pick a character for you? [ynaq] ";
@@ -1758,9 +1806,7 @@ plnamesuffix()
 
 /* show current settings for name, role, race, gender, and alignment
    in the specified window */
-void
-role_selection_prolog(which, where)
-int which;
+void role_selection_prolog(which, where) int which;
 winid where;
 {
     static const char NEARDATA choosing[] = " choosing now",
@@ -1807,11 +1853,12 @@ winid where;
     Strcat(buf, (which == RS_NAME) ? choosing : !*plname ? not_yet : plname);
     putstr(where, 0, buf);
     Sprintf(buf, "%12s ", "role:");
-    Strcat(buf, (which == RS_ROLE) ? choosing : (r == ROLE_NONE)
-                                                    ? not_yet
-                                                    : (r == ROLE_RANDOM)
-                                                          ? rand_choice
-                                                          : roles[r].name.m);
+    Strcat(buf,
+           (which == RS_ROLE)
+               ? choosing
+               : (r == ROLE_NONE)
+                     ? not_yet
+                     : (r == ROLE_RANDOM) ? rand_choice : roles[r].name.m);
     if (r >= 0 && roles[r].name.f) {
         /* distinct female name [caveman/cavewoman, priest/priestess] */
         if (g == 1)
@@ -1823,32 +1870,30 @@ winid where;
     }
     putstr(where, 0, buf);
     Sprintf(buf, "%12s ", "race:");
-    Strcat(buf, (which == RS_RACE) ? choosing : (c == ROLE_NONE)
-                                                    ? not_yet
-                                                    : (c == ROLE_RANDOM)
-                                                          ? rand_choice
-                                                          : races[c].noun);
+    Strcat(buf, (which == RS_RACE)
+                    ? choosing
+                    : (c == ROLE_NONE)
+                          ? not_yet
+                          : (c == ROLE_RANDOM) ? rand_choice : races[c].noun);
     putstr(where, 0, buf);
     Sprintf(buf, "%12s ", "gender:");
-    Strcat(buf, (which == RS_GENDER) ? choosing : (g == ROLE_NONE)
-                                                      ? not_yet
-                                                      : (g == ROLE_RANDOM)
-                                                            ? rand_choice
+    Strcat(buf, (which == RS_GENDER)
+                    ? choosing
+                    : (g == ROLE_NONE) ? not_yet
+                                       : (g == ROLE_RANDOM) ? rand_choice
                                                             : genders[g].adj);
     putstr(where, 0, buf);
     Sprintf(buf, "%12s ", "alignment:");
-    Strcat(buf, (which == RS_ALGNMNT) ? choosing : (a == ROLE_NONE)
-                                                       ? not_yet
-                                                       : (a == ROLE_RANDOM)
-                                                             ? rand_choice
-                                                             : aligns[a].adj);
+    Strcat(buf, (which == RS_ALGNMNT)
+                    ? choosing
+                    : (a == ROLE_NONE)
+                          ? not_yet
+                          : (a == ROLE_RANDOM) ? rand_choice : aligns[a].adj);
     putstr(where, 0, buf);
 }
 
 /* add a "pick alignment first"-type entry to the specified menu */
-void
-role_menu_extra(which, where, preselect)
-int which;
+void role_menu_extra(which, where, preselect) int which;
 winid where;
 boolean preselect;
 {
@@ -1966,8 +2011,7 @@ boolean preselect;
         any.a_int = 0;
         /* use four spaces of padding to fake a grayed out menu choice */
         Sprintf(buf, "%4s%s forces %s", "", constrainer, forcedvalue);
-        add_menu(where, NO_GLYPH, &any, 0, 0, ATR_NONE, buf,
-                 MENU_UNSELECTED);
+        add_menu(where, NO_GLYPH, &any, 0, 0, ATR_NONE, buf, MENU_UNSELECTED);
     } else if (what) {
         any.a_int = RS_menu_arg(which);
         Sprintf(buf, "Pick%s %s first", (f >= 0) ? " another" : "", what);
@@ -2065,9 +2109,9 @@ role_init()
         /* if gender is random, we choose it now instead of waiting
            until the leader monster is created */
         quest_status.ldrgend =
-            is_neuter(pm) ? 2 : is_female(pm) ? 1 : is_male(pm)
-                                                        ? 0
-                                                        : (rn2(100) < 50);
+            is_neuter(pm)
+                ? 2
+                : is_female(pm) ? 1 : is_male(pm) ? 0 : (rn2(100) < 50);
     }
 
     /* Fix up the quest guardians */
@@ -2087,8 +2131,10 @@ role_init()
         pm->mflags3 |= M3_WANTSARTI | M3_WAITFORU;
         /* if gender is random, we choose it now instead of waiting
            until the nemesis monster is created */
-        quest_status.nemgend = is_neuter(pm) ? 2 : is_female(pm) ? 1
-                                   : is_male(pm) ? 0 : (rn2(100) < 50);
+        quest_status.nemgend =
+            is_neuter(pm)
+                ? 2
+                : is_female(pm) ? 1 : is_male(pm) ? 0 : (rn2(100) < 50);
     }
 
     /* Fix up the god names */
@@ -2136,25 +2182,25 @@ role_init()
     return;
 }
 
-const char *
-Hello(mtmp)
-struct monst *mtmp;
+const char *Hello(mtmp) struct monst *mtmp;
 {
     switch (Role_switch) {
     case PM_KNIGHT:
         return "Salutations"; /* Olde English */
     case PM_SAMURAI:
         return (mtmp && mtmp->data == &mons[PM_SHOPKEEPER])
-                    ? "Irasshaimase"
-                    : "Konnichi wa"; /* Japanese */
+                   ? "Irasshaimase"
+                   : "Konnichi wa"; /* Japanese */
     case PM_TOURIST:
         return "Aloha"; /* Hawaiian */
     case PM_VALKYRIE:
         return
 #ifdef MAIL
-               (mtmp && mtmp->data == &mons[PM_MAIL_DAEMON]) ? "Hallo" :
+            (mtmp && mtmp->data == &mons[PM_MAIL_DAEMON])
+                ? "Hallo"
+                :
 #endif
-               "Velkommen"; /* Norse */
+                "Velkommen"; /* Norse */
     default:
         return "Hello";
     }
